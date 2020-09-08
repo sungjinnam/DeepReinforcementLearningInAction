@@ -11,7 +11,5 @@ docker build -t deep_reinforcement_learning_in_action_pytorch .
 
 - run
 ```
-docker run -it -p 8888:8888 -v ~/Documents/DeepReinforcementLearningInAction/notebooks:/app/notebooks deep_reinforcement_learning_in_action_pytorch
+docker run -it -p 8888:8888 -v $(pwd)/notebooks:/app/notebooks deep_reinforcement_learning_in_action_pytorch
 ```
-
-- TODO: enable jupyterlab extension

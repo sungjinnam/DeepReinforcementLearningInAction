@@ -41,7 +41,6 @@ Pygments = "==2.2.0"
 jupyterlab = "*"
 scipy = "*"
 jupyterlab-git = "*"
-jupytext = "*"
 gym-super-mario-bros = "*"
 scikit-image = "*"
 
